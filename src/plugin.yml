@@ -1,0 +1,12 @@
+name: CockyRooster
+version: 1.1
+description: Feeling confident in MC? Then give these a try.
+author: never2nv
+main: me.never2nv.CockyRooster.CockyRooster
+commands:
+     cocky:
+              description: Feeling confident today? Give this a try.
+     smart:
+              description: Feeling smart? Give this a try.
+     l33t:
+              description: Feeling l33t? Give this a try.
