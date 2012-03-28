@@ -44,10 +44,16 @@ public class CockyRooster extends JavaPlugin{
 	    }
 	    if(commandLabel.equalsIgnoreCase("l33t")){
 	    	// Sends pm to user who triggered the cmd.
-			player.sendMessage(ChatColor.GREEN + "You are so uber l33t! You hax0r you!");
+			player.sendMessage(ChatColor.GREEN + "Telling others what a hax0r you are!");
 			// Sends global message to the server as the user indicated above.
 			player.chat("/me " + ChatColor.GREEN + "Can open up any command line terminal and access " + ChatColor.GREEN + "ANYTHING! Such a l33t hax0r!");
 		}
+	    if(commandLabel.equalsIgnoreCase("elite")){
+	    	// Sends pm to user who triggered the cmd.
+			player.sendMessage(ChatColor.GREEN + "Telling others of your greatness!");
+			// Sends global message to the server as the user indicated above.
+			player.chat("/me " + ChatColor.GREEN + "Can open up any command line terminal and access " + ChatColor.GREEN + "ANYTHING! Such a l33t hax0r!");
+	    }
 	    // Return statement, derp.
 		return false;
 	}
