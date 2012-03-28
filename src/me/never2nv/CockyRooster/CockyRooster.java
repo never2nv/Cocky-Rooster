@@ -32,21 +32,21 @@ public class CockyRooster extends JavaPlugin{
 		Player player = (Player) sender;
 		if(commandLabel.equalsIgnoreCase("cocky")){
 			// Sends pm to user who triggered the cmd.
-			player.sendMessage(ChatColor.BLUE + "You sure do look great today! So intelligent and handsome! Wow!");
+			player.sendMessage(ChatColor.GREEN + "You sure do look great today! So intelligent and handsome! Wow!");
 			// Sends global message to the server as the user indicated above.
-			player.chat("/me " + ChatColor.DARK_RED + "<-- Look at this handsome, intelligent, courageous individual right  " + ChatColor.GREEN + "HERE!");
+			player.chat("/me " + ChatColor.RED + "<-- Look at this handsome, intelligent, courageous individual right " + ChatColor.GREEN + "HERE!");
 		}
 	    if(commandLabel.equalsIgnoreCase("smart")){
 	    	// Sends pm to user who triggered the cmd.
-	    	player.sendMessage(ChatColor.BLUE + "You are so intelligent! You make Bill Nye look like child's play!");
+	    	player.sendMessage(ChatColor.GREEN + "You are so intelligent! You make Bill Nye look like child's play!");
 	    	// Sends global message to the server as the user indicated above.
-	    	player.chat("/me " + ChatColor.WHITE + "just solved an impossible complex algirhtym " + ChatColor.GREEN + "Making them the smartest person on the server!");
+	    	player.chat("/me " + ChatColor.WHITE + "just solved an impossible complex algirhtym " + ChatColor.RED + "Making them the smartest person on the server!");
 	    }
 	    if(commandLabel.equalsIgnoreCase("l33t")){
 	    	// Sends pm to user who triggered the cmd.
-			player.sendMessage(ChatColor.BLUE + "You are so uber l33t! You hax0r you!");
+			player.sendMessage(ChatColor.GREEN + "You are so uber l33t! You hax0r you!");
 			// Sends global message to the server as the user indicated above.
-			player.chat("/me " + ChatColor.DARK_RED + "Can open up any command line terminal access " + ChatColor.GREEN + "ANYTHING! Such a l33t hax0r!");
+			player.chat("/me " + ChatColor.GREEN + "Can open up any command line terminal and access " + ChatColor.GREEN + "ANYTHING! Such a l33t hax0r!");
 		}
 	    // Return statement, derp.
 		return false;
