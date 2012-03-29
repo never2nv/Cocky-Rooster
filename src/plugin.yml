@@ -1,12 +1,39 @@
 name: CockyRooster
-version: 1.1
+version: 1.2
 description: Feeling confident in MC? Then give these a try.
 author: never2nv
 main: me.never2nv.CockyRooster.CockyRooster
 commands:
      cocky:
               description: Feeling confident today? Give this a try.
+              permission: cockyrooster.cocky
      smart:
               description: Feeling smart? Give this a try.
+              permission: cockyrooster.smart
      l33t:
               description: Feeling l33t? Give this a try.
+              permission: cockyrooster.l33t
+     elite:
+              description: Feeling l33t? Give this a try.
+              permission: cockyrooster.elite
+              
+permissions:
+  cockyrooster.*:
+    description: Gives access to all Cocky Rooster commands
+    children:
+      cockyrooster.cocky: true
+      cockyrooster.smart: true
+      cockyrooster.l33t: true
+      cockyrooster.elite: true
+  cockyrooster.cocky:
+    description: If you're feeling cocky, show it.
+    default: op
+  cockyrooster.smart:
+    description: Show off how intelligent you are.
+    default: op
+   cockyrooster.l33t:
+    description: Show off how l33t you are.
+    default: op
+    cockyrooster.elite:
+    description: Let others bathe in your elite glory.
+    default: op

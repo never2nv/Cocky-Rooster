@@ -32,15 +32,15 @@ public class CockyRooster extends JavaPlugin{
 		Player player = (Player) sender;
 		if(commandLabel.equalsIgnoreCase("cocky")){
 			// Sends pm to user who triggered the cmd.
-			player.sendMessage(ChatColor.GREEN + "You sure do look great today! So intelligent and handsome! Wow!");
+			player.sendMessage(ChatColor.GREEN + "You sure do look great today! So intelligent and handsome! Wow, I'm telling everyone!");
 			// Sends global message to the server as the user indicated above.
 			player.chat("/me " + ChatColor.RED + "<-- Look at this handsome, intelligent, courageous individual right " + ChatColor.GREEN + "HERE!");
 		}
 	    if(commandLabel.equalsIgnoreCase("smart")){
 	    	// Sends pm to user who triggered the cmd.
-	    	player.sendMessage(ChatColor.GREEN + "You are so intelligent! You make Bill Nye look like child's play!");
+	    	player.sendMessage(ChatColor.GREEN + "You are so intelligent! You make Bill Nye look like child's play! I'm informing others...");
 	    	// Sends global message to the server as the user indicated above.
-	    	player.chat("/me " + ChatColor.WHITE + "just solved an impossible complex algirhtym " + ChatColor.RED + "Making them the smartest person on the server!");
+	    	player.chat("/me " + ChatColor.WHITE + "just solved an impossible complex algorithm " + ChatColor.RED + "Making them the smartest person on the server!");
 	    }
 	    if(commandLabel.equalsIgnoreCase("l33t")){
 	    	// Sends pm to user who triggered the cmd.
@@ -52,7 +52,7 @@ public class CockyRooster extends JavaPlugin{
 	    	// Sends pm to user who triggered the cmd.
 			player.sendMessage(ChatColor.GREEN + "Telling others of your greatness!");
 			// Sends global message to the server as the user indicated above.
-			player.chat("/me " + ChatColor.GREEN + "Can open up any command line terminal and access " + ChatColor.GREEN + "ANYTHING! Such a l33t hax0r!");
+			player.chat("/me " + ChatColor.GREEN + "Is so elite: " + ChatColor.RED + "He punched an enderdragon to death, literally..... with their fists!");
 	    }
 	    // Return statement, derp.
 		return false;
