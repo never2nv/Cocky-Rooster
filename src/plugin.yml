@@ -8,14 +8,17 @@ commands:
               description: Feeling confident today? Give this a try.
               permission: cockyrooster.cocky
      smart:
-              description: Feeling smart? Give this a try.
+              description: Feeling smart? Outshine everyone.
               permission: cockyrooster.smart
      l33t:
-              description: Feeling l33t? Give this a try.
+              description: Feeling l33t? Let other's be aware of your skills.
               permission: cockyrooster.l33t
      elite:
-              description: Feeling l33t? Give this a try.
+              description: Let other's hear of your elite adventures.
               permission: cockyrooster.elite
+     troll:
+              description: Put that server troll in place.
+              permission: cockyrooster.troll
               
 permissions:
   cockyrooster.*:
@@ -29,11 +32,14 @@ permissions:
     description: If you're feeling cocky, show it.
     default: op
   cockyrooster.smart:
-    description: Show off how intelligent you are.
+    description: Feeling smart? Outshine everyone.
     default: op
-   cockyrooster.l33t:
-    description: Show off how l33t you are.
+  cockyrooster.l33t:
+    description: description: Feeling l33t? Let other's be aware of your skills.
     default: op
-    cockyrooster.elite:
-    description: Let others bathe in your elite glory.
+  cockyrooster.elite:
+    description: Let other's hear of your elite adventures.
+    default: op
+  cockyrooster.troll:
+    description: Put that server troll in place.
     default: op

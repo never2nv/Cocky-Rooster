@@ -54,6 +54,12 @@ public class CockyRooster extends JavaPlugin{
 			// Sends global message to the server as the user indicated above.
 			player.chat("/me " + ChatColor.GREEN + "Is so elite: " + ChatColor.RED + "He punched an enderdragon to death, literally..... with their fists!");
 	    }
+	    if(commandLabel.equalsIgnoreCase("troll")){
+	    	// Sends pm to user who triggered the cmd.
+			player.sendMessage(ChatColor.GREEN + "Telling others of your greatness!");
+			// Sends global message to the server as the user indicated above.
+			player.chat("/me " + ChatColor.GREEN + "SHUTUP! " + ChatColor.RED + "GET BACK UNDER YOUR BRIDGE TROLL!");
+	    }
 	    // Return statement, derp.
 		return false;
 	}
