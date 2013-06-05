@@ -1,7 +1,7 @@
 name: CockyRooster
-version: 1.2
+version: 1.3.0
 description: Feeling confident in MC? Then give these a try.
-author: never2nv
+author: Never2nv
 main: me.never2nv.CockyRooster.CockyRooster
 commands:
      cocky:
